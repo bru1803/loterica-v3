@@ -1,9 +1,14 @@
+*{
+  margin: 0;
+}
+
 h1 {
   font-size: 6em;
-  color: #10be00;
+  color: #22c713b0;
   font-family: serif;
   font-style: italic;
   text-align: center;
+  margin: 50px 0;
 }
 
 .inputs{
@@ -12,6 +17,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 50px 0;
 }
 
 input {
@@ -20,6 +26,20 @@ input {
   font-size: 2em;
   padding: 0;
   font-weight: bold;
-  border: rgb(30, 228, 4) solid 2px;
+  border: rgb(114, 216, 101) solid 2px;
 }
 
+.centerdiv{ 
+  text-align: center;
+  margin: 30px;
+}
+
+footer{
+  background-color: black;
+  color: aliceblue;
+  padding: 50px;
+  margin: 0px;
+}
+.geral{
+  height: calc(100vh - 210.4px - 118.4px);
+}
